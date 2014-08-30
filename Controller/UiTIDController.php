@@ -1,6 +1,6 @@
 <?php
-App::import('Vendor', 'OAuth/OAuthClient')
-class UiTIDController extends AppController{
+App::import('Vendor', 'OAuth/OAuthClient');
+class UiTIDController extends UiTIDAppController{
 
 //Fetches the application settings
 private function createClient() {
@@ -35,9 +35,7 @@ public function uitid() {
 			*
 			* $this->User->find('first', array('conditions' => array('User.uitid' => $accesToken->userId)));
 			*
-			*/
-            }
-            }
+            */
         }
     }
 	
@@ -102,3 +100,5 @@ public function uitid() {
                 }
             }
         }
+     }
+}
