@@ -6,6 +6,8 @@ Allow authentication of users via [UiTID](http://www.uitid.be). To get it workin
 
 First off, make sure your MySQL database has a field to store the UiTID-userId (and make sure it's indexed). Then you copy this directory into your app/Plugin of your CakePHP install. Once you've done that, you'll need to rename the app/Plugin/Uitid/Config/Uitid.php.default to Uitid.php. 
 
+If you hadn't already don't forget to change the folder from UiTID-for-CakePHP-master to Uitid.
+
 Then you'll need to activate the plugin. Do this by going to app/Config/bootstrap.php and adding the following line of code at the bottom of the file:
 
 ```
