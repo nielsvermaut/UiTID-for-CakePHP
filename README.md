@@ -57,3 +57,7 @@ That should be all. If I forgot something, let me know and I'll answer your ques
 ##Special thanks
 
 Special thanks to the developers [Jose Lorenzo Rodriguez](https://github.com/lorenzo) and [Jose Diaz-Gonzalez](http://josediazgonzalez.com/) for helping me get this plugin running.
+
+## What this plugin isn't
+
+This plugin isn't a complete port of the CultureFeed Net PHP library. It only manages logging in with UiTID and fetching the user's data (if you follow the registration tutorial). However, once you've implemented the registration tutorial, you'll get the gist of it and be able to write the functionality yourself. If you have done so, you may always send a pull request and I'll be happy to merge.
