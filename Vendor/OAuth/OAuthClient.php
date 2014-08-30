@@ -10,7 +10,6 @@
  * Redistributions of files must retain the above copyright notice.
  *
  */
-
 require('OAuth.php');
 App::uses('HttpSocket', 'Network/Http');
 

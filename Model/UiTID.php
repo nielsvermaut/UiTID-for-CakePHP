@@ -1,4 +1,4 @@
 <?php
-class UiTID extends UiTIDAppModel{
+class Uitid extends UitidAppModel{
 
 }

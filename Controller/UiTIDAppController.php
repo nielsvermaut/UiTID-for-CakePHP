@@ -1,4 +1,4 @@
 <?php
-class UiTIDAppController extends AppController{
+class UitidAppController extends AppController{
 
 }
