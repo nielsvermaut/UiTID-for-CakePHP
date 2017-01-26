@@ -1,3 +1,8 @@
+#DEPRECATED
+This repository is deprecated. One could wonder why this repository still exists, as it offends every PSR and SOLID rule and that if I would receive a PR like this today, I would smite it into oblivion. 
+
+I'm keeping this here as a reminder where I came from, and what helped me down the road. Feel free to laugh at it, but please don't use it.
+
 #UiTID authentication plugin for CakePHP
 
 Allow authentication of users via [UiTID](http://www.uitid.be). To get it working with UiTID's OAuth configuration, we used CakePHP's OAuth Consumer by [cakebaker](https://github.com/cakebaker/oauth-consumer) ([Daniel Hofstetter](http://twitter.com/dhofstet)) and modified it a little bit. The modification allows us to get the UiTID-userId in the response an thus allowing for a direct login.
